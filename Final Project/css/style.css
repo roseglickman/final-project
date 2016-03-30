@@ -1,0 +1,297 @@
+/*
+Color Pallet:
+Blue: #192B53;
+Light Blue:#3D6AAE;
+Yellow: #CBB210;
+Yellow-Brown: #BFA851;
+White: #CCD3DB;
+*/
+
+/* apply a natural box layout model to all elements, but allowing components to change */
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+     }
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* close commented backslash hack */
+
+/* UNIVERSAL */
+.container {
+	max-width: 960px;
+	width: 100%;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+header li {
+    padding-bottom: 20px;
+}
+
+header {
+    position: fixed;
+    height: 100%;
+    width: 20%;
+    background: #192B53;
+    padding: 15px;
+    text-transform: uppercase;
+}
+
+header a {
+    color: #CBB210;
+    font-family: 'Raleway', sans-serif;
+}
+
+header ul {
+    padding: 0;
+}
+
+.logo-cut-off {
+    height: 47px;
+    overflow: hidden;
+}
+.logo {
+    text-align: center;
+}
+.logo img {
+    max-width: 100%;
+}
+.navigation {
+    position: relative;
+    top: 10%;
+}
+
+.mediaLinks {
+    color: white;
+    margin-top:240px;
+    margin-left: 40px;
+}
+
+.mediaLinks ul {
+    float: none;
+}
+
+.mediaLinks li {
+    float: left;
+    padding:5px;
+    font-size: 20px;
+}
+
+#main {
+    width: 80%;
+    position: relative;
+    left: 20%;
+    background: white;
+    position: absolute;
+    font-size: 14px;
+    padding: 0;
+}
+
+#footer {
+    position: fixed;
+    width: 80%;
+    left: 20%;
+    bottom: 0;
+    background: #3D6AAE;
+    padding: 20px 0;
+}
+
+#footer img {
+    width: 30px;
+}
+
+#footer li {
+    float: left;
+}
+
+footer ul {
+    padding-left: 40%;
+}
+
+#footer .outer{
+    border:none;
+    padding: 5px;
+    border-radius: 40px;
+}
+
+#footer .outer:hover {
+    padding:4px;
+    border:1px solid #CBB210;
+}
+
+#footer .outer > a {
+    display: block;
+    background-color:#CBB210; 
+    border-radius: 40px;
+    padding:5px;
+}
+
+.navigation a {
+    text-decoration: none;
+}
+
+.navigation li {
+    margin-bottom: 10px;
+}
+
+.navigation ul {
+    margin-top: 50px;
+}
+
+.navigation nav .outer{
+    border:none;
+    padding: 2px;
+
+}
+
+.navigation nav {
+    font-size: 16px;
+}
+
+.navigation nav .outer:hover {
+    background-color: #BFA851;
+    border-radius: 2px;
+    color: #3D6AAE;
+}
+
+.navigation nav .outer > a {
+    display: block;
+}
+
+/* HOME PAGE */
+
+#main .container {
+    height: 500px;
+    overflow: hidden;
+}
+
+#main .container {
+    color: white;
+    font-size: 22px;
+}
+
+.paragraph {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.paragraph a {
+    text-decoration: none;
+    background-color: #192B53;
+    font-size: 16px;
+    padding: 5px;
+    border-radius: 2px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.paragraph h2 {
+    color:#222222;
+    font-size: 42px;
+    font-weight: 300;
+    padding-bottom: 5px;
+}
+
+.paragraph p {
+    color:#222222;
+    line-height: 1.5;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.paragraph a:hover {
+    color: #CBB210;
+}
+#boredThinking {
+    font-family: 'Architects Daughter', cursive;
+}
+
+#boredThinking img {
+}
+
+.dude {
+    display: inline-block;
+    width:50%;
+    float: left;
+    margin-left: 20px;
+    margin-top: 250px;
+}
+
+.why {
+    width: 40%;
+    text-transform: uppercase;
+    float: left;
+    color: black;
+    margin-top: 300px;
+    text-align: center;
+
+}
+
+.excuses
+{
+    position: relative;
+    width: 100%;
+    text-align: center;
+    background-color: #fff;
+}
+
+
+#boredThinking p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+    float:left;
+    display: block;
+}
+
+#boredThinking a {
+    float:none;
+    text-decoration: none;
+}
+
+#boredThinking a:hover {
+    color: #CBB210;
+}
+
+.col-md-4 a {
+    display: inline-block;
+}
+
+.col-md-4 img {
+    background-color: #192B53;
+    width: 75px;
+    padding: 5px;
+    border-radius: 2px;
+}
+
+.box a:hover {
+    background-color: #CBB210; 
+}
+
+.col-md-4 p {
+    text-align: center;
+}
+
+@media screen and (max-width: ){
+
+    }
