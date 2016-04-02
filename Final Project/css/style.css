@@ -183,19 +183,60 @@ footer ul {
 
 /* HOME PAGE */
 
-#main .container {
-    height: 500px;
-    overflow: hidden;
+#main {
+    padding-bottom: 150px;
 }
 
-#main .container {
-    color: white;
-    font-size: 22px;
+.boredThinking {
+    padding: 30px;
+    color: black;
+}
+
+.boredThinking h2 {
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    font-size: 28px;
+    text-align: center;
+    width: 100%;
+    float: none;
+    display: block;
+}
+
+.boredThinking .imageQuestion {
+    width: 50%;
+    float: left;
+    margin-top: 150px;
+}
+
+.boredThinking ul {
+    float: left;
+    width: 50%;
+}
+.boredThinking li {
+    font-family: 'Architects Daughter', cursive;
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 17px;
+}
+
+.boredThinking a {
+    text-decoration: none;
+}
+
+.boredThinking a:hover {
+    color: #CBB210;
+}
+
+
+#paragraph1 {
+    padding-top: 100px;
 }
 
 .paragraph {
     padding-left: 100px;
-    padding-right: 100px;
+    padding-right: 150px;
+    float: none;
+    margin-top: 200px;
 }
 .paragraph a {
     text-decoration: none;
@@ -204,13 +245,15 @@ footer ul {
     padding: 5px;
     border-radius: 2px;
     font-family: 'Raleway', sans-serif;
+    float:right;
+    margin-top: 10px;
 }
 
 .paragraph h2 {
-    color:#222222;
+    color:#CBB210;
     font-size: 42px;
-    font-weight: 300;
-    padding-bottom: 5px;
+    font-weight: 600;
+    padding-bottom: 15px;
 }
 
 .paragraph p {
@@ -218,80 +261,65 @@ footer ul {
     line-height: 1.5;
     font-weight: 300;
     font-size: 18px;
+    margin-bottom: 10px;
 }
 
 .paragraph a:hover {
     color: #CBB210;
 }
-#boredThinking {
-    font-family: 'Architects Daughter', cursive;
-}
 
-#boredThinking img {
-}
-
-.dude {
+.box a {
     display: inline-block;
-    width:50%;
-    float: left;
-    margin-left: 20px;
-    margin-top: 250px;
-}
-
-.why {
-    width: 40%;
-    text-transform: uppercase;
-    float: left;
-    color: black;
-    margin-top: 300px;
-    text-align: center;
-
-}
-
-.excuses
-{
-    position: relative;
-    width: 100%;
-    text-align: center;
-    background-color: #fff;
-}
-
-
-#boredThinking p {
-    font-family: 'Raleway', sans-serif;
-    font-size: 30px;
-    float:left;
-    display: block;
-}
-
-#boredThinking a {
-    float:none;
-    text-decoration: none;
-}
-
-#boredThinking a:hover {
-    color: #CBB210;
-}
-
-.col-md-4 a {
-    display: inline-block;
-}
-
-.col-md-4 img {
-    background-color: #192B53;
-    width: 75px;
-    padding: 5px;
-    border-radius: 2px;
+    margin: 10px;
 }
 
 .box a:hover {
-    background-color: #CBB210; 
+    background-color:#CBB210;
 }
 
-.col-md-4 p {
+.box img {
+    width: 50px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.box p {
+    font-weight: 600;
+    font-size: 12px;
+    color:#CBB210;
+}
+
+.paragraph p {
+    float: none;
+    margin-bottom: 20px;
+}
+
+.paragraph .box {
+    width:30%;
+    float:left;
+    padding: 5px;
     text-align: center;
+    background-color:#192B53;
+    border-radius: 5px;
+    margin: 2px; 
+    height: 140px;
 }
 
-@media screen and (max-width: ){
+.paragraph a {
+    float: none;
+}
+
+#paragraph3 {
+    margin-bottom: 300px;
+}
+
+.go-travel {
+    padding: 40px;
+}
+
+@media screen and (min-width: 768px){
+
+    }
+@media screen and (min-width: 320px){
 
     }

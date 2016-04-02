@@ -1,0 +1,96 @@
+/* apply a natural box layout model to all elements, but allowing components to change */
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+     }
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* close commented backslash hack */
+
+/* UNIVERSAL */
+
+body {
+    font-family: 'Raleway', sans-serif;
+    max-width: 960px;
+    width: 100%;
+    background-image: url('../images/empowerTravel.jpg');
+    background-size: cover;
+}
+
+a {
+    text-decoration: none;
+    display: block;
+
+}
+
+ul {
+    list-style-type: none;
+    float: none;
+    text-align: center;
+}
+
+li {
+  float: left;
+}
+
+p {
+    font-size: 38px;
+    text-transform: uppercase;
+    color:#192B53;
+    font-weight: 600;
+    text-align: center;
+}
+
+.logo img {
+  width: 50%;
+  margin-left: 26%;
+}
+
+.outer img {
+    width: 30px;
+}
+
+.outer{
+  background: #CBB210;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 40px;
+ }
+
+.outer:hover {
+  background: #192B53;
+}
+
+.container {
+  width: 80%;
+  margin: 10%;
+}
+
+@media screen and (min-width: 768px){
+
+    }
+@media screen and (max-width: 320px){
+.outer img {
+    width: 20px;
+}
+
+.outer{
+  background: #CBB210;
+  padding: 5px;
+  margin: 5px;
+  border-radius: 30px;
+ }
+    }
