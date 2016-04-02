@@ -32,7 +32,6 @@ html {
 /* UNIVERSAL */
 .container {
 	max-width: 960px;
-	width: 100%;
 }
 
 body {
@@ -317,9 +316,41 @@ footer ul {
     margin-bottom: 300px;
 }
 
-.go-travel {
-    padding: 40px;
+form {
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 20px;
 }
+
+#question {
+    text-align: center;
+}
+
+.go-travel h2 {
+    text-align: center;
+    font-size: 22px;
+    text-transform: uppercase;
+    color: #192B53;
+    font-weight: 600;
+    margin: 0;
+}
+
+span {
+    margin-bottom: 10px;
+}
+
+.go-travel img {
+    background-color: #3D6AAE;
+    width: 30px;
+    border-radius: 30px;
+    padding: 5px;
+}
+
+#contactFooter {
+    width: 100%;
+    left: 0;
+}
+
 
 @media screen and (max-width: 800px){
 .boredThinking ul {

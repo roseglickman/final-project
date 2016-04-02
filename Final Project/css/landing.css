@@ -24,8 +24,8 @@ html {
 
 body {
     font-family: 'Raleway', sans-serif;
-    width: 100%;
-    max-width: 960px;
+    min-height: 100vh;
+    width: 100vw;
     background: url('../images/empowerTravel.jpg');
     background-size: cover;
 }
@@ -35,28 +35,36 @@ a {
     display: block;
 
 }
+header {
+  text-align: center;
+  margin-top: 6%;
+}
 
 ul {
     list-style-type: none;
-    float: none;
-    margin-left: 32%;
+    padding-left: 0;
   }
 
 li {
-  float: left;
+  display: inline-block;
 }
 
 p {
-    font-size: 38px;
+    font-size: 28px;
     text-transform: uppercase;
     color:#192B53;
     font-weight: 600;
     text-align: center;
+    margin-top: 0;
+}
+
+.container {
+  margin: 0 auto;
 }
 
 .logo img {
-  width: 50%;
-  margin-left: 26%;
+  width: 100%;
+  max-width: 255px;
 }
 
 .outer img {
@@ -72,15 +80,6 @@ p {
 
 .outer:hover {
   background: #192B53;
-}
-
-.container {
-  position: absolute;
-  top:0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  margin: auto;
 }
 
 .headermenu {
