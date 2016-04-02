@@ -213,7 +213,7 @@ footer ul {
     width: 50%;
 }
 .boredThinking li {
-    font-family: 'Architects Daughter', cursive;
+    font-family: 'Raleway', sans-serif;
     text-align: center;
     margin-bottom: 10px;
     font-size: 17px;
@@ -221,6 +221,9 @@ footer ul {
 
 .boredThinking a {
     text-decoration: none;
+    color: #192B53;
+    font-size: 20px;
+    font-weight: 600;
 }
 
 .boredThinking a:hover {
@@ -247,6 +250,7 @@ footer ul {
     font-family: 'Raleway', sans-serif;
     float:right;
     margin-top: 10px;
+    color: white;
 }
 
 .paragraph h2 {
@@ -317,9 +321,97 @@ footer ul {
     padding: 40px;
 }
 
-@media screen and (min-width: 768px){
+@media screen and (max-width: 800px){
+.boredThinking ul {
+    float: left;
+    width: 100%;
+    padding-left: 20%;
+    padding-right: 20%;
+    font-size: 20px;
+    text-transform: uppercase;
+} 
+
+.boredThinking li {
+    padding-bottom: 20px;
+}
+
+.boredThinking .imageQuestion {
+    width: 100%;
+    float: left;
+    margin-top: 0px;
+    text-align: center;
+}
 
     }
-@media screen and (min-width: 320px){
+@media screen and (max-width: 700px){
+header li {
+    padding: 20px;
+    float: left;
+    margin-right: 20px;
 
+}
+
+header ul {
+    float: left;
+}
+
+header {
+    position: relative;
+    width: 100%;
+}
+
+.navigation {
+    display: inline-block;
+}
+.navigation ul {
+    margin: 0;
+}
+
+.mediaLinks {
+    margin: 0;
+    float: right;
+}
+.logo {
+    text-align: center;
+}
+
+.logo img {
+    max-width: 20%;
+}
+
+#footer {
+    width: 100%;
+    left: 0;
+}
+
+#main {
+    width: 100%;
+    left: 0;
+}
     }
+
+@media screen and (max-width: 550px){
+
+
+.paragraph .box {
+    float: none;
+    width: 100%;
+}
+}
+
+@media screen and (max-width: 450px){
+
+header li {
+    float: none;
+    margin-right: 0;
+}
+
+.paragraph h2 {
+    font-size: 26px;
+}
+
+.paragraph p {
+    font-size: 14px;
+}
+
+}
