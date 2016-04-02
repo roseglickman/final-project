@@ -32,7 +32,6 @@ html {
 /* UNIVERSAL */
 .container {
 	max-width: 960px;
-	width: 100%;
 }
 
 body {
@@ -183,19 +182,63 @@ footer ul {
 
 /* HOME PAGE */
 
-#main .container {
-    height: 500px;
-    overflow: hidden;
+#main {
+    padding-bottom: 150px;
 }
 
-#main .container {
-    color: white;
-    font-size: 22px;
+.boredThinking {
+    padding: 30px;
+    color: black;
+}
+
+.boredThinking h2 {
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    font-size: 28px;
+    text-align: center;
+    width: 100%;
+    float: none;
+    display: block;
+}
+
+.boredThinking .imageQuestion {
+    width: 50%;
+    float: left;
+    margin-top: 150px;
+}
+
+.boredThinking ul {
+    float: left;
+    width: 50%;
+}
+.boredThinking li {
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 17px;
+}
+
+.boredThinking a {
+    text-decoration: none;
+    color: #192B53;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.boredThinking a:hover {
+    color: #CBB210;
+}
+
+
+#paragraph1 {
+    padding-top: 100px;
 }
 
 .paragraph {
     padding-left: 100px;
-    padding-right: 100px;
+    padding-right: 150px;
+    float: none;
+    margin-top: 200px;
 }
 .paragraph a {
     text-decoration: none;
@@ -204,13 +247,16 @@ footer ul {
     padding: 5px;
     border-radius: 2px;
     font-family: 'Raleway', sans-serif;
+    float:right;
+    margin-top: 10px;
+    color: white;
 }
 
 .paragraph h2 {
-    color:#222222;
+    color:#CBB210;
     font-size: 42px;
-    font-weight: 300;
-    padding-bottom: 5px;
+    font-weight: 600;
+    padding-bottom: 15px;
 }
 
 .paragraph p {
@@ -218,80 +264,185 @@ footer ul {
     line-height: 1.5;
     font-weight: 300;
     font-size: 18px;
+    margin-bottom: 10px;
 }
 
 .paragraph a:hover {
     color: #CBB210;
 }
-#boredThinking {
-    font-family: 'Architects Daughter', cursive;
-}
 
-#boredThinking img {
-}
-
-.dude {
+.box a {
     display: inline-block;
-    width:50%;
-    float: left;
-    margin-left: 20px;
-    margin-top: 250px;
-}
-
-.why {
-    width: 40%;
-    text-transform: uppercase;
-    float: left;
-    color: black;
-    margin-top: 300px;
-    text-align: center;
-
-}
-
-.excuses
-{
-    position: relative;
-    width: 100%;
-    text-align: center;
-    background-color: #fff;
-}
-
-
-#boredThinking p {
-    font-family: 'Raleway', sans-serif;
-    font-size: 30px;
-    float:left;
-    display: block;
-}
-
-#boredThinking a {
-    float:none;
-    text-decoration: none;
-}
-
-#boredThinking a:hover {
-    color: #CBB210;
-}
-
-.col-md-4 a {
-    display: inline-block;
-}
-
-.col-md-4 img {
-    background-color: #192B53;
-    width: 75px;
-    padding: 5px;
-    border-radius: 2px;
+    margin: 10px;
 }
 
 .box a:hover {
-    background-color: #CBB210; 
+    background-color:#CBB210;
 }
 
-.col-md-4 p {
+.box img {
+    width: 50px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.box p {
+    font-weight: 600;
+    font-size: 12px;
+    color:#CBB210;
+}
+
+.paragraph p {
+    float: none;
+    margin-bottom: 20px;
+}
+
+.paragraph .box {
+    width:30%;
+    float:left;
+    padding: 5px;
+    text-align: center;
+    background-color:#192B53;
+    border-radius: 5px;
+    margin: 2px; 
+    height: 140px;
+}
+
+.paragraph a {
+    float: none;
+}
+
+#paragraph3 {
+    margin-bottom: 300px;
+}
+
+form {
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 20px;
+}
+
+#question {
     text-align: center;
 }
 
-@media screen and (max-width: ){
+.go-travel h2 {
+    text-align: center;
+    font-size: 22px;
+    text-transform: uppercase;
+    color: #192B53;
+    font-weight: 600;
+    margin: 0;
+}
+
+span {
+    margin-bottom: 10px;
+}
+
+.go-travel img {
+    background-color: #3D6AAE;
+    width: 30px;
+    border-radius: 30px;
+    padding: 5px;
+}
+
+#contactFooter {
+    width: 100%;
+    left: 0;
+}
+
+
+@media screen and (max-width: 800px){
+.boredThinking ul {
+    float: left;
+    width: 100%;
+    padding-left: 20%;
+    padding-right: 20%;
+    font-size: 20px;
+    text-transform: uppercase;
+} 
+
+.boredThinking li {
+    padding-bottom: 20px;
+}
+
+.boredThinking .imageQuestion {
+    width: 100%;
+    float: left;
+    margin-top: 0px;
+    text-align: center;
+}
 
     }
+@media screen and (max-width: 700px){
+header li {
+    padding: 20px;
+    float: left;
+    margin-right: 20px;
+
+}
+
+header ul {
+    float: left;
+}
+
+header {
+    position: relative;
+    width: 100%;
+}
+
+.navigation {
+    display: inline-block;
+}
+.navigation ul {
+    margin: 0;
+}
+
+.mediaLinks {
+    margin: 0;
+    float: right;
+}
+.logo {
+    text-align: center;
+}
+
+.logo img {
+    max-width: 20%;
+}
+
+#footer {
+    width: 100%;
+    left: 0;
+}
+
+#main {
+    width: 100%;
+    left: 0;
+}
+    }
+
+@media screen and (max-width: 550px){
+
+
+.paragraph .box {
+    float: none;
+    width: 100%;
+}
+}
+
+@media screen and (max-width: 450px){
+
+header li {
+    float: none;
+    margin-right: 0;
+}
+
+.paragraph h2 {
+    font-size: 26px;
+}
+
+.paragraph p {
+    font-size: 14px;
+}
+
+}
